@@ -1,0 +1,144 @@
+body{
+    top: 0;
+    margin: 0;
+    color: white;
+}
+#cont{
+    background-color: #450e6b;
+}
+#conatiner{
+   
+    font-family: sans-serif;
+}
+#box1{
+    background-color: #450e6b;
+    display: flex;
+    position: relative;
+}
+header{
+    font-size: 32px;
+}
+#headblock{
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    justify-content: space-around;
+}
+li select{
+    color: white;
+    background-color: #450e6b;
+    border: none;
+}
+#container1{
+    width: 100%;
+}
+#container01{
+    height: 400px;
+    position: relative;
+}
+#container1 h2,p ,button{
+    margin: 50px auto auto 50px;
+    font-family: sans-serif;
+}
+#container1 h2{
+    font-size:40px;
+}
+#container1 p{
+    width: 30%;
+    font-size: 20px;
+}
+
+#container01 img{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    float: right;
+    right: 40px;
+    top: 5px;
+}
+button{
+    border-radius: 5px;
+    height: 30px;
+    font-size: medium;
+    
+}
+
+#contain1{
+    width: 100%;
+    align-items: center;
+}
+#contain01{
+    height: 100px;
+    display: flex;
+    background: linear-gradient(rgb(198, 86, 212),rgb(157, 10, 177),rgb(156, 70, 182));
+    justify-content: space-around;
+}
+#contain01 img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+#contain2{
+    width: 100%;
+    font-family: sans-serif; 
+}
+#contain02{
+    height: 250px;
+    background-color: #170524;
+    align-items: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#photo{
+    width: 150px;
+    height: 150px;
+    
+}
+#contain02 img{
+    width: 100px;
+    height: 100px;
+    float: right;
+    justify-content: space-between;
+}
+#badge{
+    width: 30%;
+}
+#contain3{
+    color: white;
+    margin: 30px 50px 30px 30px;
+    background-color: white;
+}
+.contain30{
+    width: 60%;
+    font-size: 17px;
+    position: relative;
+}
+#contain03{
+    width: 34%;
+    color: black;
+    background-color:white
+    
+}
+.contain30 h2,p{
+    align-items: center;
+    justify-content: center;
+}
+#contain0003{
+    display: flex;
+}
+#contain003{
+    display: flex;
+}
+#contain030{
+    width: 30%;
+    color: black;
+    float: right;
+}
